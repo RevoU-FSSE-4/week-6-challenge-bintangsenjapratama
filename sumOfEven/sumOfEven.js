@@ -1,4 +1,4 @@
-function sumOfEvens(numbers) {
+function sumOfEven(numbers) {
   let sum = 0;
 
   for (let index = 0; index < numbers.length; index++) {
@@ -13,4 +13,4 @@ function sumOfEvens(numbers) {
   return sum;
 }
 
-module.exports = sumOfEvens;
+module.exports = sumOfEven;
