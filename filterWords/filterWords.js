@@ -1,5 +1,5 @@
 function filterWords(words) {
-  // Your code here
+  return words.filter((word) => word.length > 3);
 }
 
 module.exports = filterWords;
